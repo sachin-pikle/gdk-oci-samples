@@ -11,7 +11,7 @@ git remote add origin https://github.com/sachin-pikle/gdk-oci-samples.git
 git config core.sparsecheckout true
 echo "gdk-oci-object-store-mvn/*">>.git/info/sparse-checkout
 git pull --depth=1 origin main
-cd gdk-oci-object-store-mvn
+## code gdk-oci-object-store-mvn
 ```
 
 ## Micronaut 4.5.0 Documentation

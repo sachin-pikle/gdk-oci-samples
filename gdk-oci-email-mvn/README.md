@@ -11,7 +11,7 @@ git remote add origin https://github.com/sachin-pikle/gdk-oci-samples.git
 git config core.sparsecheckout true
 echo "gdk-oci-email-mvn/*">>.git/info/sparse-checkout
 git pull --depth=1 origin main
-cd gdk-oci-email-mvn
+## code gdk-oci-email-mvn
 ```
 
 ## Micronaut 4.5.0 Documentation

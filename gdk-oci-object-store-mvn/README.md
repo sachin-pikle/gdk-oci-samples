@@ -1,5 +1,18 @@
 # Build a Java application with the Graal Development Kit for Micronaut (GDK), and OCI Object Storage
+
 This repo contains the sample code used in the Live Labs workshop --> [Build a Java application with the Graal Development Kit for Micronaut (GDK), and Oracle Cloud Infrastructure Object Storage](https://apexapps.oracle.com/pls/apex/f?p=133:180:11329413485967::::wid:3858)
+
+## Git clone this sample
+
+``` shell
+git init lab
+cd lab
+git remote add origin https://github.com/sachin-pikle/gdk-oci-samples.git
+git config core.sparsecheckout true
+echo "gdk-oci-object-store-mvn/*">>.git/info/sparse-checkout
+git pull --depth=1 origin main
+cd gdk-oci-object-store-mvn
+```
 
 ## Micronaut 4.5.0 Documentation
 

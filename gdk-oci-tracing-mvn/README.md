@@ -1,6 +1,6 @@
-# Build a Java application with the Graal Development Kit for Micronaut (GDK), and OCI Object Storage
+# Configure a Java application to send traces to Oracle Cloud Infrastructure (OCI) APM Tracing using the Graal Development Kit for Micronaut (GDK)
 
-This repo contains the sample code used in the Live Labs workshop --> [Build a Java application with the Graal Development Kit for Micronaut (GDK), and Oracle Cloud Infrastructure (OCI) Object Storage](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3858)
+This repo contains the sample code used in the Live Labs workshop --> [Configure a Java application to send traces to Oracle Cloud Infrastructure (OCI) APM Tracing using the Graal Development Kit for Micronaut (GDK)](https://apexapps.oracle.com/pls/apex/f?p=133:180:11329413485967::::wid:3858)
 
 ## Git clone this sample
 
@@ -9,9 +9,8 @@ git init lab
 cd lab
 git remote add origin https://github.com/sachin-pikle/gdk-oci-samples.git
 git config core.sparsecheckout true
-echo "gdk-oci-object-store-mvn/*">>.git/info/sparse-checkout
+echo "gdk-oci-tracing-mvn/*">>.git/info/sparse-checkout
 git pull --depth=1 origin main
-## code gdk-oci-object-store-mvn
 ```
 
 ## Micronaut 4.5.0 Documentation
@@ -30,20 +29,6 @@ git pull --depth=1 origin main
 ## Feature maven-enforcer-plugin documentation
 
 - [https://maven.apache.org/enforcer/maven-enforcer-plugin/](https://maven.apache.org/enforcer/maven-enforcer-plugin/)
-
-
-## Feature object-storage-oracle-cloud documentation
-
-- [Micronaut Object Storage - Oracle Cloud documentation](https://micronaut-projects.github.io/micronaut-object-storage/latest/guide/)
-
-- [https://www.oracle.com/cloud/storage/object-storage/](https://www.oracle.com/cloud/storage/object-storage/)
-
-
-## Feature oracle-cloud-sdk documentation
-
-- [Micronaut Oracle Cloud SDK documentation](https://micronaut-projects.github.io/micronaut-oracle-cloud/latest/guide/)
-
-- [https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdk.htm](https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdk.htm)
 
 
 ## Feature serialization-jackson documentation

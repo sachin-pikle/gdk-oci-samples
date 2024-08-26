@@ -9,8 +9,8 @@ This repository contains sample code used in the Oracle Live Labs workshops for 
 3. [GDK OCI Autonomous Database with Secrets in the Vault](./gdk-oci-adb-mvn/)
 4. [GDK OCI Logging](./gdk-oci-logging-mvn/)
 5. [GDK OCI Tracing](./gdk-oci-tracing-mvn/)
-6. GDK OCI Metrics
-7. GDK OCI MySQL HeatWave with Secrets in the Vault
+6. [GDK OCI Metrics](./gdk-oci-metrics-mvn/)
+7. [GDK OCI MySQL HeatWave with Secrets in the Vault](./gdk-oci-mysql-mvn/)
 
 ## Help
 

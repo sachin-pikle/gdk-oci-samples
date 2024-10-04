@@ -24,5 +24,4 @@ Please consult the [security guide](./SECURITY.md) for our responsible security 
 
 Copyright (c) 2024 Oracle and/or its affiliates.
 
-Released under the Universal Permissive License v1.0 as shown at
-<https://oss.oracle.com/licenses/upl/>.
+Released under the [Apache License version 2.0](LICENSE.txt).

@@ -32,9 +32,11 @@ limitations under the License.
     <packaging>jar</packaging>
     <jdk.version>17</jdk.version>
     <release.version>17</release.version>
-    <micronaut-maven-plugin.version>4.6.1</micronaut-maven-plugin.version>
-    <micronaut.test.resources.version>2.5.2</micronaut.test.resources.version>
-    <micronaut.version>4.5.0-oracle-00001</micronaut.version>
+    <kotlin.version>1.8.22</kotlin.version>
+    <micronaut-maven-plugin.version>4.6.3</micronaut-maven-plugin.version>
+    <micronaut.core.version>4.6.5-oracle-00001</micronaut.core.version>
+    <micronaut.test.resources.version>2.6.0</micronaut.test.resources.version>
+    <micronaut.version>4.6.0-oracle-00001</micronaut.version>
   </properties>
 
   <repositories>
@@ -54,7 +56,7 @@ limitations under the License.
       <dependency>
         <groupId>cloud.graal.gdk</groupId>
         <artifactId>gdk-bom</artifactId>
-        <version>4.5.0.0</version>
+        <version>4.6.0.1</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>

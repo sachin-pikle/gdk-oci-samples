@@ -1,6 +1,6 @@
-# Configure a Java application to send metrics to Oracle Cloud Infrastructure (OCI) Monitoring with the Graal Development Kit for Micronaut (GDK)
+# Publish Standard and Custom Metrics to Oracle Cloud Infrastructure (OCI) Monitoring with the Graal Development Kit for Micronaut (GDK)
 
-This repo contains the sample code used in the Live Labs workshop --> [Configure a Java application to send metrics to Oracle Cloud Infrastructure (OCI) Monitoring with the Graal Development Kit for Micronaut (GDK)](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4020)
+This repo contains the sample code used in the Live Labs workshop --> [Publish standard and custom metrics to Oracle Cloud Infrastructure (OCI) Monitoring with the Graal Development Kit for Micronaut (GDK)](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4053)
 
 ## Git clone this sample
 
